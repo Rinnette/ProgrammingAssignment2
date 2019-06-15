@@ -3,7 +3,7 @@
 
 
 ## This function creates a special "matrix" object that caches its inverse.  It returns a list
-## of 4 functions that allow you to access the cache.
+## of 4 functions that allow you to access the object and the cached inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
